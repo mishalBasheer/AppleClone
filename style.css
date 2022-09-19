@@ -1,0 +1,166 @@
+@font-face {
+    font-family: applefont-light;
+    src: url(fonts/SF-Pro-Text-Light.otf);
+
+}
+
+@font-face {
+    font-family: applefont-regular;
+    src: url(fonts/SF-Pro-Text-Regular.otf);
+
+}
+
+@font-face {
+    font-family: applefont-bold;
+    src: url(fonts/SF-Pro-Text-Bold.otf);
+
+}
+
+@font-face {
+    font-family: applefont-medium;
+    src: url(fonts/SF-Pro-Text-Medium.otf);
+
+}
+
+@font-face {
+    font-family: applefont-heavy;
+    src: url(fonts/SF-Pro-Text-Heavy.otf);
+
+}
+
+body {
+    margin: 0;
+    font-family: applefont-regular;
+
+}
+
+a {
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.nav-bar {
+
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    padding: 12px 0px;
+    
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+    width: 100%;
+}
+
+.nav-bar .flex-parent div a {
+    color: rgb(223, 223, 223);
+    font-family: applefont-light;
+    font-size: 12px;
+}
+
+.nav-bar .flex-parent div a:hover {
+    color: #ffffff;
+}
+
+.font-up {
+    font-size: 16px;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 255px;
+}
+
+.nav-bar .flex-parent div:nth-child(n+2) {
+    padding-top: 1px;
+}
+
+.iphone14pro {
+    height: 624px;
+
+
+    text-align: center;
+    overflow: auto;
+
+}
+
+.bg-14pro {
+    background: url(images/hero_iphone14pro__e5xbgo5ffhg2_large.jpg) no-repeat center;
+    background-color: black;
+}
+
+.iphone14pro h2 {
+    padding-top: 52px;
+    font-size: 56px;
+    margin-block-end: 8px;
+}
+
+.iphone14pro h3 {
+    font-family: applefont-light;
+    font-size: 28px;
+    margin-block-start: 8px;
+    margin-block-end: 12px;
+
+}
+
+.iphone14pro a {
+    
+    font-family: applefont-light;
+    
+}
+
+.iphone14pro a i {
+    font-size: 14px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 580px 580px 580px;
+    grid-gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+div.grid-cell {
+    background-color: #FBFBFD;
+    padding: 10px;
+}
+
+.bg-14 {
+    background: url(images/hero_iphone14_preorder__c4g2wjzuugqe_large.jpg) no-repeat center;
+    background-color: #ffffff;
+}
+
+.bg-watch8 {
+    background: url(images/hero_apple_watch_series_8__bjc1ok5mkjua_large.jpg) no-repeat center;
+    background-color: black;
+}
+
+.bg-watch-se {
+    background: url(images/promo_apple_watch_se__f9702l6odgi2_large.jpg) no-repeat center;
+    
+}
+.bg-watch-ultra{
+    background: url(images/promo_apple_watch_ultra_avail__ddgwll601eie_large.jpg) no-repeat center;
+    
+}
+.bg-fitness{
+    background: url(images/promo-apple-fitness-plus-iphone__bzeal882mv7m_large.jpg) no-repeat center;
+}
+.bg-airpods{
+    background: url(images/promo_airpods_pro_avail__gaxggskofx6y_large.jpg) no-repeat center;
+}
+.bg-last-chance{
+    background: url(images/promo_bts_last_chance__dqftd8sek46e_large.jpg) no-repeat center;
+}
+.bg-card{
+    background: url(images/tile__cauwwcyyn9hy_large.jpg) no-repeat center;
+}
