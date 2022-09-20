@@ -64,7 +64,7 @@ ul{
 
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: saturate(180%) blur(20px);
-    padding: 12px 0px;
+    padding: 0.8rem 0;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -89,7 +89,7 @@ ul{
 .flex-parent {
     display: flex;
     justify-content: space-around;
-    margin: auto 255px;
+    margin: auto 21.25rem;
 }
 
 .nav-bar .flex-parent div:nth-child(n+2) {
@@ -342,4 +342,42 @@ footer{
 }
 div.footer-text-color{
     padding-bottom: 13px;
+}
+@media screen and (max-width: 1300px) {
+    .flex-parent {
+
+        margin: auto calc(5rem + 5.1vw);
+    }
+    footer{
+
+        padding: 0.25rem calc(5rem + 5.1vw);
+    }
+    .slideshow{
+
+        height: calc(400.56px + 2.1vw);
+        width: calc(800px + 2.1vw);
+
+    }
+}
+@media screen and (max-width: 800px) {
+    .flex-parent {
+
+        margin: auto calc(1rem + 3.1vw);
+    }
+    .grid {
+
+        grid-template-columns: auto;
+        grid-template-rows: 580px 580px 580px 580px 580px 580px;
+
+    }
+    footer{
+
+        padding: 0.25rem calc(1rem + 3.1vw);
+    }
+    .slideshow{
+
+        height: calc(203.66px + 1.1vw);
+        width: calc(550px + 1.1vw);
+
+    }
 }
